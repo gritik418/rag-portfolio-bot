@@ -1,0 +1,17 @@
+Name: Ritik Gupta
+Role: Full Stack Web Developer
+
+Summary:
+Ritik is a dedicated Full Stack Software Developer with strong experience building full-stack applications, SaaS platforms, and dynamic web solutions. He specializes in modern web technologies including JavaScript, TypeScript, React, Next.js, Node.js, and various database systems. Ritik has experience in building scalable, responsive, and practical applications with real production value.
+
+Education:
+- Bachelor’s Degree in Computer Science, Manipal University, Jaipur
+
+Work Experience:
+  - Associate Software Engineer at STARTWITH BASICX PVT. LTD., Jaipur
+  - Built MealMate Scheduler app using React.js, TypeScript, Node.js, and MariaDB
+  - Developed an Invoice Extractor tool with React.js and Shadcn UI
+  - Engineered a sports management platform deployed on AWS with dynamic subdomains and responsive interfaces
+
+Goals:
+To continuously grow as a full-stack engineer and deliver solutions that solve real-world problems, optimize user experience, and demonstrate best-quality code standards.

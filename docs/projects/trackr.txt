@@ -1,0 +1,130 @@
+Project Name: Trackr
+Type: SaaS Task Management Platform (Jira-like)
+Status: Production-ready / Scalable Architecture
+
+Live URL:
+(To be deployed)
+
+GitHub Repository:
+https://github.com/gritik418/trackr-frontend 
+
+Role:
+Full Stack Developer / System Architect
+
+Overview:
+Trackr is a scalable task management SaaS platform inspired by Jira. It enables organizations to manage work through a structured hierarchy: Organization → Workspace → Project → Task.
+
+The system supports advanced Role-Based Access Control (RBAC), background job processing, media uploads, and scalable architecture design.
+
+Core Hierarchy Structure:
+- Organization
+    - Workspace
+        - Project
+            - Task
+
+Tech Stack:
+
+Frontend:
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+
+Backend:
+- NestJS (Modular architecture)
+- PostgreSQL
+- Prisma ORM
+- Redis
+- BullMQ (job queue)
+
+Infrastructure & Services:
+- Cloudinary (file uploads)
+- JWT Authentication
+- Redis-based caching
+- Background job processing
+
+Key Features:
+
+1. Multi-Tenant Architecture
+   - Organizations isolate data
+   - Workspace-level separation
+   - Project-based task grouping
+
+2. Advanced RBAC System
+   - Org-level roles
+   - Workspace-level permissions
+   - Project-level access control
+   - Middleware-based permission guards
+
+3. Task Management System
+   - Create, update, delete tasks
+   - Assign users
+   - Priority & status management
+   - Deadline tracking
+   - Attachment uploads via Cloudinary
+
+4. Background Processing
+   - BullMQ for async task handling
+   - Email notifications (extendable)
+   - Scheduled task reminders
+   - Queue retry strategies
+
+5. Redis Integration
+   - Caching frequently accessed data
+   - Session handling optimization
+   - Reduced DB load
+
+6. Secure Authentication
+   - JWT-based authentication
+   - Protected routes
+   - Permission-based route guards
+
+Database Design:
+
+- Organizations table
+- Workspaces table
+- Projects table
+- Tasks table
+- Users table
+- Roles table
+- Permissions table
+- Many-to-many relationship modeling
+
+Engineering Highlights:
+
+- Designed complex relational schema with Prisma
+- Implemented hierarchical RBAC with guard-based protection
+- Separated modules by domain (auth, org, workspace, project, task)
+- Optimized heavy queries using indexing
+- Built scalable job queue system using BullMQ + Redis
+- Designed multi-tenant isolation strategy
+
+Challenges Solved:
+
+- Designing flexible RBAC without role explosion
+- Managing hierarchical permission inheritance
+- Avoiding N+1 query issues
+- Handling concurrent task updates
+- Queue failure handling & retry logic
+
+Scalability Considerations:
+
+- Modular NestJS architecture
+- Redis caching layer
+- Queue-based async processing
+- Ready for horizontal scaling
+- Easily extendable for analytics & reporting
+
+Future Expansion Possibilities:
+
+- Activity logs
+- Audit trail
+- WebSocket-based real-time updates
+- Gantt chart visualization
+- Kanban board view
+- Organization billing & subscription model
+
+Impact:
+
+- Demonstrates enterprise SaaS architecture capability
+- Showcases RBAC, multi-tenancy, and queue system design
+- Production-ready backend structure

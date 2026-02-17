@@ -1,0 +1,9 @@
+Achievements & Highlights:
+- Built multiple full-stack apps handling real-world logic and features
+- Deployed apps on production infrastructure with AWS
+- Improved performance via frontend optimization techniques
+- Delivered projects with authentication, payment systems, and scalable backend
+
+Side Projects:
+- Real-time tools like invoice extractor
+- Sports management platforms with dynamic deployment routes

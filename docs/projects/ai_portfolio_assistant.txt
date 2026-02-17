@@ -1,0 +1,36 @@
+Project Name: AI Portfolio Assistant
+Type: Retrieval-Augmented Generation System
+
+Live URL:
+(To be deployed)
+
+GitHub Repository:
+https://github.com/gritik418/rag-portfolio-bot
+
+Role:
+AI Engineer / Backend Developer
+
+Overview:
+An AI-powered portfolio assistant built using Retrieval-Augmented Generation (RAG). The system allows recruiters to interactively query structured portfolio documents.
+
+Architecture:
+- Python backend
+- FastAPI
+- LangChain
+- ChromaDB
+- OpenAI / Ollama
+
+Core Components:
+- Document ingestion pipeline
+- Text splitting with overlap tuning
+- Embedding generation
+- Vector database indexing
+- Context-aware response generation
+
+Engineering Design:
+- Offline indexing vs runtime querying separation
+- Modular folder architecture
+- Metadata tagging for retrieval filtering
+
+Purpose:
+To demonstrate AI engineering capability and advanced backend architecture.

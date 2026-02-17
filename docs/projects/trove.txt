@@ -1,0 +1,43 @@
+Project Name: Trove
+Type: SaaS eCommerce Platform
+Status: Active Development
+
+GitHub Repository:
+https://github.com/gritik418/trove-backend
+
+Role:
+Full Stack Developer
+
+Overview:
+Trove is a scalable eCommerce application designed with clean architecture principles. It supports user authentication, product management, order processing, and wishlist features.
+
+Architecture:
+- Backend: NestJS
+- Frontend: Next.js
+- Database: PostgreSQL
+- ORM: Prisma
+- Authentication: JWT
+
+Core Modules:
+- Auth Module
+- User Module
+- Product Module
+- Order Module
+- Wishlist Module
+
+Key Features:
+- User registration/login
+- Role-based access control
+- Product CRUD operations
+- Order management system
+- Cloudinary image uploads
+- Scalable folder structure
+
+Engineering Highlights:
+- Type-safe Prisma schema modeling
+- Relationship modeling for orders
+- Secure authentication middleware
+- Clean separation of concerns
+
+Scalability:
+Designed Trove to support future microservices expansion.

@@ -1,0 +1,50 @@
+Project Name: Huddle
+Type: SaaS Social Media Platform
+Status: Production-ready
+
+Live URL:
+https://huddle-app-silk.vercel.app/
+
+GitHub Repository:
+https://github.com/gritik418/Huddle
+
+Role:
+Full Stack Developer
+
+Overview:
+Huddle is a scalable social media SaaS platform that enables users to create posts, stories, and collaborative channels. The platform supports both public and private channels with a creator-based permission model.
+
+Architecture:
+- Frontend: Next.js (App Router), TypeScript
+- Backend: NestJS (Modular Architecture)
+- Database: PostgreSQL
+- ORM: Prisma
+- Authentication: JWT
+- Media Storage: Cloudinary
+
+Core Features:
+- Public & Private Channels
+- Channel creator-only control system
+- Story upload (image & video)
+- Notification system
+- Search functionality
+- Protected routes
+- Middleware-based auth guard
+
+Advanced Engineering:
+- Modular NestJS architecture
+- Cross-domain API handling
+- Production cookie debugging
+- Role-less member permission model
+- Optimized RTK Query data fetching
+
+Challenges Solved:
+- Middleware cookies not received in production
+- Cross-origin API setup
+- Next.js build-time bugs
+- Real-time notification integration
+
+Scalability Considerations:
+- Separated backend modules
+- Clean service-controller pattern
+- Optimized relational modeling

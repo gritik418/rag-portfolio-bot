@@ -1,0 +1,45 @@
+Category: Backend Skills
+
+Primary Stack:
+- TypeScript
+- Node.js
+- NestJS
+- Express.js
+- Python
+- Django
+
+Databases:
+- PostgreSQL
+- MongoDB
+- MySQL
+
+ORM:
+- Prisma
+- Drizzle
+- TypeORM
+
+Authentication:
+- JWT Authentication
+- Role-based Access Control
+
+Cloud & Storage:
+- Cloudinary integration for image uploads
+
+API Design:
+- RESTful APIs
+- Modular architecture
+- Scalable folder structure
+
+Experience:
+Built backend systems for SaaS and eCommerce applications.
+Designed separate modules for user and authentication systems.
+Implemented CRUD operations and secure API endpoints.
+
+Deployment & Cloud:
+- AWS EC2/Amplify for production deployment
+- Environment management, CORS, and secure configs
+
+Backend Architecture:
+- Modular folder structure
+- Separation of concerns and service layers
+- Error handling and logging practices

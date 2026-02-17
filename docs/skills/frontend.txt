@@ -1,0 +1,37 @@
+Category: Frontend Skills
+
+Primary Stack:
+- HTML
+- CSS3
+- Tailwind CSS
+- React.js
+- Next.js
+- TypeScript
+- JavaScript (ES6+)
+
+UI & Styling:
+- Tailwind CSS
+- Shadcn
+- Chakra UI
+- Responsive Design
+- Component-driven architecture
+
+State Management:
+- Redux Toolkit
+- RTK Query
+- Context API
+- Zustand
+
+Experience:
+Handled complete frontend development independently during internship.
+Built production-level SaaS applications with authentication, protected routes, dashboards, and API integrations.
+Focused on performance optimization and clean UI architecture.
+
+API & Integration:
+- REST API integration with axios and fetch
+- RTK Query for optimized data fetching
+
+UI/UX & Accessibility:
+- Responsive design best practices
+- Cross-browser compatibility
+- Accessible components via semantic HTML

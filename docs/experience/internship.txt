@@ -1,0 +1,26 @@
+Experience: Frontend Developer Intern
+Duration: 6 Months
+Company: Whatbytes
+
+Responsibilities:
+- Handled frontend development independently
+- Worked on LinkedIn Automation Extension
+- Worked on Django and Node js for backend
+- Developed production-ready features
+- Integrated backend APIs
+- Implemented responsive UI components
+- Fixed critical build-time bugs
+- Worked closely with backend developers
+
+Technologies Used:
+- React.js
+- Next.js
+- TypeScript
+- REST APIs
+- Redux Toolkit
+- Python
+- Django
+- Node.js
+
+Impact:
+Successfully delivered multiple features to production and improved UI performance.

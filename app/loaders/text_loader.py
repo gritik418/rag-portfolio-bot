@@ -9,6 +9,7 @@ def load_text_files(text_dir_path: str):
         path=text_dir_path,
         glob="**/*.txt",
         loader_cls=TextLoader,
+        loader_kwargs={"encoding": "utf-8"},
     )
 
     documents = loader.load()

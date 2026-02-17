@@ -1,0 +1,48 @@
+Full Stack Developer Skillset Overview
+
+Frontend:
+- React
+- Next.js (App & Pages Router)
+- TypeScript
+- JavaScript
+- Tailwind CSS
+- Chakra UI
+- Shadcn UI
+
+Backend:
+- Node.js
+- NestJS
+- Express
+
+Databases:
+- PostgreSQL
+- MySQL
+- MariaDB
+- MongoDB
+
+ORM:
+- Prisma
+- Drizzle
+- TypeORM
+
+DevOps:
+- AWS (EC2, Amplify)
+- Docker
+- Nginx
+- Vercel
+- Linux
+
+AI & LLM:
+- RAG Architecture
+- LangChain
+- ChromaDB
+- OpenAI API
+- Ollama
+
+Other:
+- REST API Design
+- JWT Authentication
+- Role-Based Access Control
+- Cloudinary integration
+- Middleware debugging
+- Production bug fixing
