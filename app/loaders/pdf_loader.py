@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import DirectoryLoader, PyMuPDFLoader
 import os
 
-def load_pdf(pdf_dir_path: str):
+def load_pdf_files(pdf_dir_path: str):
     if not os.path.exists(pdf_dir_path):
         raise FileNotFoundError(f"PDF directory not found: {pdf_dir_path}")
     
