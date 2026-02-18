@@ -19,8 +19,8 @@ def ingest_documents(docs_path: Path):
     
     chunks = split_documents(
         documents=documents, 
-        chunk_size=450,
-        chunk_overlap=60,
+        chunk_size=750,
+        chunk_overlap=150,
     )
 
     create_vectorstore(documents=chunks)
