@@ -1,0 +1,5 @@
+services:
+  model:
+    image: ollama/ollama
+    ports:
+      - "12434:11434"
