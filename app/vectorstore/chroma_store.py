@@ -20,3 +20,17 @@ def create_vectorstore(documents):
     )
 
     return vector_store
+
+
+def get_vectorstore():
+    if not DB_PATH.exists():
+        raise ValueError("Vectorstore not found.")
+    
+    embedding_model = get_embedding_model()
+
+    db = Chroma(
+        persist_directory=str(DB_PATH),
+        embedding_function=embedding_model
+    )
+
+    return db
