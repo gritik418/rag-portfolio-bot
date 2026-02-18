@@ -1,10 +1,10 @@
 from langchain_chroma import Chroma
 from app.embeddings.embedding_model import get_embedding_model
+from app.config.default import CHROMA_PERSIST_DIR
 from pathlib import Path
 import shutil
 
-BASE_DIR = Path(__file__).resolve().parent.parent.parent
-DB_PATH = BASE_DIR / "chroma-store"
+DB_PATH = CHROMA_PERSIST_DIR
 
 def create_vectorstore(documents):
     if DB_PATH.exists():

@@ -1,11 +1,12 @@
 from langchain_ollama import ChatOllama
+from app.config.default import LLM_BASE_URL,LLM_MODEL,LLM_TEMP
 
 
 def get_llm():
     model = ChatOllama(
-        model="phi3",
-        base_url="http://localhost:12434",
-        temperature=0.2
+        model=LLM_MODEL,
+        base_url=LLM_BASE_URL,
+        temperature=LLM_TEMP
     )
 
     return model

@@ -6,7 +6,7 @@ def rewrite_query(query: str, history: list):
         return query
 
     messages = [
-        SystemMessage(
+       SystemMessage(
     content="""
 You are a strict coreference resolution engine.
 
@@ -15,9 +15,8 @@ with the correct entity mentioned earlier in the conversation.
 
 Rules:
 - DO NOT answer the question.
-- DO NOT add explanations or extra context.
-- DO NOT include any details about projects, skills, or technologies.
-- DO NOT hallucinate information.
+- DO NOT add explanations, details, or examples.
+- DO NOT hallucinate any information.
 - Return exactly one rewritten question.
 - If no rewrite is needed, return the original question unchanged.
 - Output plain text only.
@@ -27,10 +26,10 @@ Examples:
 Conversation history:
 User: Who is Ritik?
 AI: Ritik Gupta is a Full Stack Developer.
-User: Tell me about his projects.
+User: Tell me about his experience.
 
 Rewrite Output:
-Tell me about Ritik Gupta's projects
+Tell me about Ritik Gupta's experience
 
 Conversation history:
 User: What is Trackr?
@@ -39,18 +38,8 @@ User: Does it support RBAC?
 
 Rewrite Output:
 Does Trackr support RBAC?
-
-Conversation history:
-User: What is Huddle?
-AI: Huddle is a social media SaaS platform.
-User: Tell me more about it.
-
-Rewrite Output:
-Tell me more about Huddle.
 """
-)
-,
-        *history,
+),      *history,
         HumanMessage(content=f"Rewrite this question: {query}")
     ]
 
